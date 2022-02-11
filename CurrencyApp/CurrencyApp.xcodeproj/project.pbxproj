@@ -158,9 +158,8 @@
 		753E34FD27B6AB8C00764ED6 /* CurrencyApp */ = {
 			isa = PBXGroup;
 			children = (
-				753E34FE27B6AB8C00764ED6 /* AppDelegate.swift */,
-				753E350027B6AB8C00764ED6 /* SceneDelegate.swift */,
-				753E350227B6AB8C00764ED6 /* ViewController.swift */,
+				753E356227B6AD6900764ED6 /* AppSceneDelegates */,
+				753E356327B6AD7500764ED6 /* Scenes */,
 				753E350727B6AB8D00764ED6 /* Assets.xcassets */,
 				753E350927B6AB8D00764ED6 /* LaunchScreen.storyboard */,
 				753E350C27B6AB8D00764ED6 /* Info.plist */,
@@ -188,9 +187,8 @@
 		753E353327B6AC8A00764ED6 /* CurrencyAppTableView */ = {
 			isa = PBXGroup;
 			children = (
-				753E353427B6AC8A00764ED6 /* AppDelegate.swift */,
-				753E353627B6AC8A00764ED6 /* SceneDelegate.swift */,
-				753E353827B6AC8A00764ED6 /* ViewController.swift */,
+				753E356427B6AD8100764ED6 /* AppSceneDelegates */,
+				753E356527B6AD8A00764ED6 /* Scenes */,
 				753E353D27B6AC8B00764ED6 /* Assets.xcassets */,
 				753E353F27B6AC8B00764ED6 /* LaunchScreen.storyboard */,
 				753E354227B6AC8B00764ED6 /* Info.plist */,
@@ -213,6 +211,40 @@
 				753E355727B6AC8C00764ED6 /* CurrencyAppTableViewUITestsLaunchTests.swift */,
 			);
 			path = CurrencyAppTableViewUITests;
+			sourceTree = "<group>";
+		};
+		753E356227B6AD6900764ED6 /* AppSceneDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				753E34FE27B6AB8C00764ED6 /* AppDelegate.swift */,
+				753E350027B6AB8C00764ED6 /* SceneDelegate.swift */,
+			);
+			path = AppSceneDelegates;
+			sourceTree = "<group>";
+		};
+		753E356327B6AD7500764ED6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				753E350227B6AB8C00764ED6 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		753E356427B6AD8100764ED6 /* AppSceneDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				753E353427B6AC8A00764ED6 /* AppDelegate.swift */,
+				753E353627B6AC8A00764ED6 /* SceneDelegate.swift */,
+			);
+			path = AppSceneDelegates;
+			sourceTree = "<group>";
+		};
+		753E356527B6AD8A00764ED6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				753E353827B6AC8A00764ED6 /* ViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
