@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  CurrencyApp
+//  CurrencyAppTableView
 //
 //  Created by Majit Uteniyazov on 11/02/22.
 //
@@ -13,7 +13,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
 
 }
 
