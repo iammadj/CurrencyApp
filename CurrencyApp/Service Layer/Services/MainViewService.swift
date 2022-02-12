@@ -7,15 +7,33 @@
 
 import Foundation
 
-protocol MainViewServiceProtocol {
+protocol MainViewService {
+    
+    func fetchData(_ endpoint: MainViewEndpoint, completion: @escaping (Result<[Main], Error>) -> Void)
     
 }
 
-struct MainViewService: MainViewServiceProtocol {
+struct MainViewServiceImp: MainViewService {
+    
+    //MARK: - Properties
     
     private let apiManager: APIManager
     private let jsonMapper: JSONMapper
     
-    init(apiManager: APIManager = APIManagerImp(), jsonMapper: JSONMapper)
+    //MARK: - Init
+    
+    init(apiManager: APIManager = APIManagerImp(), jsonMapper: JSONMapper = JSONMapperImp()) {
+        self.apiManager = apiManager
+        self.jsonMapper = jsonMapper
+    }
+    
+    //MARK: - Methods
+    
+    func fetchData(_ endpoint: MainViewEndpoint, completion: @escaping (Result<[Main], Error>) -> Void) {
+        apiManager.request(with: endpoint) { result in
+            let mappedResult = jsonMapper.mapToResult(from: result, for: nil, type: [Main].self)
+            completion(mappedResult)
+        }
+    }
     
 }

@@ -25,6 +25,7 @@ class ErrorView: UIView {
         label.font = .systemFont(ofSize: 20.0, weight: .semibold)
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
+        label.textAlignment = .center
         label.text = "Ooops! Something went wrong! Try to reload"
         
         return label
@@ -70,12 +71,17 @@ class ErrorView: UIView {
     }
     
     private func setImageViewConstraints() {
-        imageView.edgesToSuperview(excluding: .bottom, insets: .horizontal(32.0))
+        imageView.horizontalToSuperview(insets: .horizontal(32.0))
+        imageView.topToSuperview(offset: 32.0, relation: .equalOrGreater)
+        imageView.size(CGSize(width: 64.0, height: 64.0), priority: .defaultHigh)
+        
     }
     
     private func setTitleLabelConstraints() {
         titleLabel.topToBottom(of: imageView, offset: 32.0)
-        titleLabel.horizontalToSuperview(insets: .horizontal(32.0))
+        titleLabel.leftToSuperview(offset: 32.0, relation: .equalOrGreater)
+        titleLabel.rightToSuperview(offset: -32.0, relation: .equalOrLess)
+        titleLabel.centerInSuperview()
     }
     
     private func setReloadButtonConstraints() {
@@ -83,6 +89,8 @@ class ErrorView: UIView {
         reloadButton.leftToSuperview(offset: 32.0, relation: .equalOrGreater)
         reloadButton.rightToSuperview(offset: -32.0, relation: .equalOrLess)
         reloadButton.bottomToSuperview(offset: -32.0, relation: .equalOrLess)
+        reloadButton.centerXToSuperview()
+        reloadButton.size(CGSize(width: 48.0, height: 48.0), priority: .defaultHigh)
     }
     
 }

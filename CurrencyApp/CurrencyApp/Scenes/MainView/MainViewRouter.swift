@@ -12,9 +12,7 @@ protocol MainViewRouterProtocol: BaseRouterProtocol {
 }
 
 class MainViewRouter: MainViewRouterProtocol {
-    var _viewController: UIViewController? {
-        nil
-    }
+    var viewController: UIViewController?
     
     class func create() -> UIViewController {
         let viewController = MainViewController()
@@ -30,6 +28,8 @@ class MainViewRouter: MainViewRouterProtocol {
         
         interactor.presenter = presenter
         
+        router.viewController = viewController
+                
         return viewController
     }
     

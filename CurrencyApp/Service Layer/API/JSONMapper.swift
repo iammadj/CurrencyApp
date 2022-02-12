@@ -10,7 +10,6 @@ import SwiftyJSON
 
 protocol JSONMapper {
     func mapToObject<T: Decodable>(from data: Data, type: T.Type) throws -> T
-    func mapToResult<T: Decodable>(from result: AFResult<APIResponse>, for key: String?, type: T.Type) -> Result<T, Error>
 }
 
 extension JSONMapper {
@@ -48,7 +47,7 @@ class JSONMapperImp: JSONMapper {
     }
     
     func mapToObject<T>(from data: Data, type: T.Type) throws -> T where T : Decodable {
-        print(JSON(data))
+//        print(JSON(data))
         
         do {
             let object = try decoder.decode(type, from: data)

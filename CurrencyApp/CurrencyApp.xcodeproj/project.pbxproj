@@ -17,7 +17,7 @@
 		753E352227B6AB8D00764ED6 /* CurrencyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E352127B6AB8D00764ED6 /* CurrencyAppUITestsLaunchTests.swift */; };
 		753E353527B6AC8A00764ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E353427B6AC8A00764ED6 /* AppDelegate.swift */; };
 		753E353727B6AC8A00764ED6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E353627B6AC8A00764ED6 /* SceneDelegate.swift */; };
-		753E353927B6AC8A00764ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E353827B6AC8A00764ED6 /* ViewController.swift */; };
+		753E353927B6AC8A00764ED6 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E353827B6AC8A00764ED6 /* MainTableViewController.swift */; };
 		753E353E27B6AC8B00764ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753E353D27B6AC8B00764ED6 /* Assets.xcassets */; };
 		753E354127B6AC8B00764ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753E353F27B6AC8B00764ED6 /* LaunchScreen.storyboard */; };
 		753E354C27B6AC8C00764ED6 /* CurrencyAppTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E354B27B6AC8C00764ED6 /* CurrencyAppTableViewTests.swift */; };
@@ -56,6 +56,35 @@
 		753E35AB27B6E89F00764ED6 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35A927B6E89F00764ED6 /* JSONMapper.swift */; };
 		753E35AD27B6E99C00764ED6 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35AC27B6E99C00764ED6 /* MappingError.swift */; };
 		753E35AE27B6E99C00764ED6 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35AC27B6E99C00764ED6 /* MappingError.swift */; };
+		753E35B027B6ED3900764ED6 /* MainViewEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35AF27B6ED3900764ED6 /* MainViewEndpoint.swift */; };
+		753E35B127B6ED3900764ED6 /* MainViewEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35AF27B6ED3900764ED6 /* MainViewEndpoint.swift */; };
+		753E35B427B6EE3200764ED6 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35B327B6EE3200764ED6 /* DateFormatter.swift */; };
+		753E35B527B6EE3200764ED6 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35B327B6EE3200764ED6 /* DateFormatter.swift */; };
+		753E35B827B6F0AB00764ED6 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35B727B6F0AB00764ED6 /* MainModel.swift */; };
+		753E35B927B6F0AB00764ED6 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35B727B6F0AB00764ED6 /* MainModel.swift */; };
+		753E35BB27B6F95700764ED6 /* ReusableId+RegisterCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35BA27B6F95700764ED6 /* ReusableId+RegisterCells.swift */; };
+		753E35BC27B6F95700764ED6 /* ReusableId+RegisterCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35BA27B6F95700764ED6 /* ReusableId+RegisterCells.swift */; };
+		753E35BF27B6F97900764ED6 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35BE27B6F97900764ED6 /* MainCollectionViewCell.swift */; };
+		753E35C027B6F97900764ED6 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35BE27B6F97900764ED6 /* MainCollectionViewCell.swift */; };
+		753E35C227B6FF3200764ED6 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35C127B6FF3200764ED6 /* Currency.swift */; };
+		753E35C327B6FF3200764ED6 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35C127B6FF3200764ED6 /* Currency.swift */; };
+		753E35C527B700A800764ED6 /* AttrString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35C427B700A800764ED6 /* AttrString.swift */; };
+		753E35C627B700A800764ED6 /* AttrString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35C427B700A800764ED6 /* AttrString.swift */; };
+		753E35C827B71ECA00764ED6 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35C727B71ECA00764ED6 /* UIView+Shadow.swift */; };
+		753E35C927B71ECA00764ED6 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35C727B71ECA00764ED6 /* UIView+Shadow.swift */; };
+		753E35CB27B7E70C00764ED6 /* MainViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35CA27B7E70C00764ED6 /* MainViewHeaderView.swift */; };
+		753E35CC27B7E70C00764ED6 /* MainViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35CA27B7E70C00764ED6 /* MainViewHeaderView.swift */; };
+		753E35CF27B7F03300764ED6 /* MainTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35CD27B7F03300764ED6 /* MainTableViewPresenter.swift */; };
+		753E35D227B7F08D00764ED6 /* MainTableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35D027B7F08D00764ED6 /* MainTableViewInteractor.swift */; };
+		753E35D527B7F0C300764ED6 /* MainTableViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35D327B7F0C300764ED6 /* MainTableViewRouter.swift */; };
+		753E35D827B7F2BD00764ED6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35D727B7F2BD00764ED6 /* MainTableViewCell.swift */; };
+		753E35D927B7F2BD00764ED6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35D727B7F2BD00764ED6 /* MainTableViewCell.swift */; };
+		753E35DA27B7F44000764ED6 /* MessagedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35A627B6CA3100764ED6 /* MessagedError.swift */; };
+		753E35DB27B7F45400764ED6 /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E357627B6B08200764ED6 /* BasePresenterProtocol.swift */; };
+		753E35DC27B7F45800764ED6 /* BaseRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E357A27B6B11600764ED6 /* BaseRouterProtocol.swift */; };
+		753E35DD27B7F46E00764ED6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E356D27B6AF0B00764ED6 /* BaseNavigationController.swift */; };
+		753E35DF27B7F7A000764ED6 /* MainTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E35DE27B7F7A000764ED6 /* MainTableHeaderView.swift */; };
+		753E35E027B7F98400764ED6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753E358127B6B73900764ED6 /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,7 +134,7 @@
 		753E353227B6AC8A00764ED6 /* CurrencyAppTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyAppTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753E353427B6AC8A00764ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		753E353627B6AC8A00764ED6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		753E353827B6AC8A00764ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		753E353827B6AC8A00764ED6 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		753E353D27B6AC8B00764ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		753E354027B6AC8B00764ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		753E354227B6AC8B00764ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,7 +144,7 @@
 		753E355527B6AC8C00764ED6 /* CurrencyAppTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAppTableViewUITests.swift; sourceTree = "<group>"; };
 		753E355727B6AC8C00764ED6 /* CurrencyAppTableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAppTableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		753E356D27B6AF0B00764ED6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		753E357027B6AF4900764ED6 /* UIView+RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RoundCorners.swift"; sourceTree = "<group>"; };
+		753E357027B6AF4900764ED6 /* UIView+RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+RoundCorners.swift"; path = "../Application Layer/Extensions/UIView+RoundCorners.swift"; sourceTree = "<group>"; };
 		753E357427B6B01600764ED6 /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
 		753E357627B6B08200764ED6 /* BasePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenterProtocol.swift; sourceTree = "<group>"; };
 		753E357827B6B0F700764ED6 /* MainViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewRouter.swift; sourceTree = "<group>"; };
@@ -123,15 +152,29 @@
 		753E357C27B6B1A800764ED6 /* MainViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewInteractor.swift; sourceTree = "<group>"; };
 		753E357E27B6B1C800764ED6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		753E358127B6B73900764ED6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
-		753E358327B6B8FA00764ED6 /* UIView+addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviews.swift"; sourceTree = "<group>"; };
-		753E358527B6BA2D00764ED6 /* AddTargets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTargets.swift; sourceTree = "<group>"; };
+		753E358327B6B8FA00764ED6 /* UIView+addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+addSubviews.swift"; path = "../Application Layer/Extensions/UIView+addSubviews.swift"; sourceTree = "<group>"; };
+		753E358527B6BA2D00764ED6 /* AddTargets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddTargets.swift; path = "../Application Layer/Extensions/AddTargets.swift"; sourceTree = "<group>"; };
 		753E359227B6C22600764ED6 /* MainViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewService.swift; sourceTree = "<group>"; };
 		753E359C27B6C37300764ED6 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		753E359F27B6C51900764ED6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		753E35A227B6C53B00764ED6 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
-		753E35A627B6CA3100764ED6 /* MessagedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagedError.swift; sourceTree = "<group>"; };
+		753E35A627B6CA3100764ED6 /* MessagedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessagedError.swift; path = ../Helpers/MessagedError.swift; sourceTree = "<group>"; };
 		753E35A927B6E89F00764ED6 /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
-		753E35AC27B6E99C00764ED6 /* MappingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingError.swift; sourceTree = "<group>"; };
+		753E35AC27B6E99C00764ED6 /* MappingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MappingError.swift; path = ../Helpers/MappingError.swift; sourceTree = "<group>"; };
+		753E35AF27B6ED3900764ED6 /* MainViewEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewEndpoint.swift; sourceTree = "<group>"; };
+		753E35B327B6EE3200764ED6 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = "Application Layer/Helpers/DateFormatter.swift"; sourceTree = SOURCE_ROOT; };
+		753E35B727B6F0AB00764ED6 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		753E35BA27B6F95700764ED6 /* ReusableId+RegisterCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ReusableId+RegisterCells.swift"; path = "Application Layer/Extensions/ReusableId+RegisterCells.swift"; sourceTree = SOURCE_ROOT; };
+		753E35BE27B6F97900764ED6 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		753E35C127B6FF3200764ED6 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = "Application Layer/Helpers/Currency.swift"; sourceTree = SOURCE_ROOT; };
+		753E35C427B700A800764ED6 /* AttrString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AttrString.swift; path = "Application Layer/Helpers/AttrString.swift"; sourceTree = SOURCE_ROOT; };
+		753E35C727B71ECA00764ED6 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Shadow.swift"; path = "Application Layer/Extensions/UIView+Shadow.swift"; sourceTree = SOURCE_ROOT; };
+		753E35CA27B7E70C00764ED6 /* MainViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewHeaderView.swift; sourceTree = "<group>"; };
+		753E35CD27B7F03300764ED6 /* MainTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewPresenter.swift; sourceTree = "<group>"; };
+		753E35D027B7F08D00764ED6 /* MainTableViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewInteractor.swift; sourceTree = "<group>"; };
+		753E35D327B7F0C300764ED6 /* MainTableViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewRouter.swift; sourceTree = "<group>"; };
+		753E35D727B7F2BD00764ED6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		753E35DE27B7F7A000764ED6 /* MainTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				753E358727B6C1BD00764ED6 /* Service Layer */,
+				753E35B627B6F09500764ED6 /* DataLayer */,
 				753E359727B6C2AB00764ED6 /* Application Layer */,
 				753E359827B6C2D000764ED6 /* Presentation Layer */,
 				753E34FD27B6AB8C00764ED6 /* CurrencyApp */,
@@ -303,7 +347,11 @@
 		753E356527B6AD8A00764ED6 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				753E353827B6AC8A00764ED6 /* ViewController.swift */,
+				753E35D627B7F2A500764ED6 /* Components */,
+				753E353827B6AC8A00764ED6 /* MainTableViewController.swift */,
+				753E35CD27B7F03300764ED6 /* MainTableViewPresenter.swift */,
+				753E35D027B7F08D00764ED6 /* MainTableViewInteractor.swift */,
+				753E35D327B7F0C300764ED6 /* MainTableViewRouter.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -331,6 +379,8 @@
 				753E357027B6AF4900764ED6 /* UIView+RoundCorners.swift */,
 				753E358327B6B8FA00764ED6 /* UIView+addSubviews.swift */,
 				753E358527B6BA2D00764ED6 /* AddTargets.swift */,
+				753E35BA27B6F95700764ED6 /* ReusableId+RegisterCells.swift */,
+				753E35C727B71ECA00764ED6 /* UIView+Shadow.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -338,6 +388,7 @@
 		753E357327B6AFB500764ED6 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				753E35BD27B6F96600764ED6 /* Components */,
 				753E350227B6AB8C00764ED6 /* MainViewController.swift */,
 				753E357427B6B01600764ED6 /* MainViewPresenter.swift */,
 				753E357C27B6B1A800764ED6 /* MainViewInteractor.swift */,
@@ -368,6 +419,7 @@
 		753E359727B6C2AB00764ED6 /* Application Layer */ = {
 			isa = PBXGroup;
 			children = (
+				753E35B227B6EE2700764ED6 /* Helpers */,
 				753E356F27B6AF3700764ED6 /* Extensions */,
 			);
 			name = "Application Layer";
@@ -406,6 +458,7 @@
 			isa = PBXGroup;
 			children = (
 				753E359C27B6C37300764ED6 /* Endpoint.swift */,
+				753E35AF27B6ED3900764ED6 /* MainViewEndpoint.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
@@ -418,6 +471,43 @@
 			);
 			name = Helpers;
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		753E35B227B6EE2700764ED6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				753E35B327B6EE3200764ED6 /* DateFormatter.swift */,
+				753E35C127B6FF3200764ED6 /* Currency.swift */,
+				753E35C427B700A800764ED6 /* AttrString.swift */,
+			);
+			name = Helpers;
+			path = "../Application Layer/Helpers";
+			sourceTree = "<group>";
+		};
+		753E35B627B6F09500764ED6 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				753E35B727B6F0AB00764ED6 /* MainModel.swift */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		753E35BD27B6F96600764ED6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				753E35BE27B6F97900764ED6 /* MainCollectionViewCell.swift */,
+				753E35CA27B7E70C00764ED6 /* MainViewHeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		753E35D627B7F2A500764ED6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				753E35D727B7F2BD00764ED6 /* MainTableViewCell.swift */,
+				753E35DE27B7F7A000764ED6 /* MainTableHeaderView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -660,22 +750,32 @@
 				753E35A727B6CA3100764ED6 /* MessagedError.swift in Sources */,
 				753E357B27B6B11600764ED6 /* BaseRouterProtocol.swift in Sources */,
 				753E35AD27B6E99C00764ED6 /* MappingError.swift in Sources */,
+				753E35BF27B6F97900764ED6 /* MainCollectionViewCell.swift in Sources */,
 				753E356E27B6AF0B00764ED6 /* BaseNavigationController.swift in Sources */,
 				753E350327B6AB8C00764ED6 /* MainViewController.swift in Sources */,
+				753E35B427B6EE3200764ED6 /* DateFormatter.swift in Sources */,
+				753E35C227B6FF3200764ED6 /* Currency.swift in Sources */,
+				753E35B827B6F0AB00764ED6 /* MainModel.swift in Sources */,
 				753E35AA27B6E89F00764ED6 /* JSONMapper.swift in Sources */,
+				753E35B027B6ED3900764ED6 /* MainViewEndpoint.swift in Sources */,
 				753E357527B6B01600764ED6 /* MainViewPresenter.swift in Sources */,
 				753E34FF27B6AB8C00764ED6 /* AppDelegate.swift in Sources */,
 				753E358227B6B73900764ED6 /* ErrorView.swift in Sources */,
 				753E358427B6B8FA00764ED6 /* UIView+addSubviews.swift in Sources */,
+				753E35C827B71ECA00764ED6 /* UIView+Shadow.swift in Sources */,
+				753E35D827B7F2BD00764ED6 /* MainTableViewCell.swift in Sources */,
 				753E350127B6AB8C00764ED6 /* SceneDelegate.swift in Sources */,
 				753E359D27B6C37300764ED6 /* Endpoint.swift in Sources */,
+				753E35BB27B6F95700764ED6 /* ReusableId+RegisterCells.swift in Sources */,
 				753E358627B6BA2D00764ED6 /* AddTargets.swift in Sources */,
+				753E35C527B700A800764ED6 /* AttrString.swift in Sources */,
 				753E35A027B6C51900764ED6 /* APIManager.swift in Sources */,
 				753E357727B6B08200764ED6 /* BasePresenterProtocol.swift in Sources */,
 				753E359327B6C22600764ED6 /* MainViewService.swift in Sources */,
 				753E357127B6AF4900764ED6 /* UIView+RoundCorners.swift in Sources */,
 				753E357F27B6B1C800764ED6 /* MainViewModel.swift in Sources */,
 				753E35A327B6C53B00764ED6 /* APIResponse.swift in Sources */,
+				753E35CB27B7E70C00764ED6 /* MainViewHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,16 +800,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753E35C327B6FF3200764ED6 /* Currency.swift in Sources */,
 				753E359627B6C27500764ED6 /* MainViewService.swift in Sources */,
+				753E35D227B7F08D00764ED6 /* MainTableViewInteractor.swift in Sources */,
+				753E35C627B700A800764ED6 /* AttrString.swift in Sources */,
 				753E359427B6C25B00764ED6 /* UIView+addSubviews.swift in Sources */,
 				753E359E27B6C37300764ED6 /* Endpoint.swift in Sources */,
+				753E35B127B6ED3900764ED6 /* MainViewEndpoint.swift in Sources */,
+				753E35E027B7F98400764ED6 /* ErrorView.swift in Sources */,
+				753E35DB27B7F45400764ED6 /* BasePresenterProtocol.swift in Sources */,
 				753E35A427B6C53B00764ED6 /* APIResponse.swift in Sources */,
+				753E35DF27B7F7A000764ED6 /* MainTableHeaderView.swift in Sources */,
+				753E35DC27B7F45800764ED6 /* BaseRouterProtocol.swift in Sources */,
+				753E35C027B6F97900764ED6 /* MainCollectionViewCell.swift in Sources */,
+				753E35D927B7F2BD00764ED6 /* MainTableViewCell.swift in Sources */,
 				753E35A127B6C51900764ED6 /* APIManager.swift in Sources */,
 				753E357227B6AF6800764ED6 /* UIView+RoundCorners.swift in Sources */,
 				753E359527B6C25F00764ED6 /* AddTargets.swift in Sources */,
+				753E35CF27B7F03300764ED6 /* MainTableViewPresenter.swift in Sources */,
+				753E35CC27B7E70C00764ED6 /* MainViewHeaderView.swift in Sources */,
+				753E35DA27B7F44000764ED6 /* MessagedError.swift in Sources */,
+				753E35DD27B7F46E00764ED6 /* BaseNavigationController.swift in Sources */,
+				753E35B927B6F0AB00764ED6 /* MainModel.swift in Sources */,
 				753E35AE27B6E99C00764ED6 /* MappingError.swift in Sources */,
-				753E353927B6AC8A00764ED6 /* ViewController.swift in Sources */,
+				753E353927B6AC8A00764ED6 /* MainTableViewController.swift in Sources */,
+				753E35B527B6EE3200764ED6 /* DateFormatter.swift in Sources */,
+				753E35BC27B6F95700764ED6 /* ReusableId+RegisterCells.swift in Sources */,
+				753E35C927B71ECA00764ED6 /* UIView+Shadow.swift in Sources */,
 				753E353527B6AC8A00764ED6 /* AppDelegate.swift in Sources */,
+				753E35D527B7F0C300764ED6 /* MainTableViewRouter.swift in Sources */,
 				753E353727B6AC8A00764ED6 /* SceneDelegate.swift in Sources */,
 				753E35AB27B6E89F00764ED6 /* JSONMapper.swift in Sources */,
 			);

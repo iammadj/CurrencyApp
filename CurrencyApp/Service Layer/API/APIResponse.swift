@@ -11,10 +11,6 @@ import SwiftyJSON
 protocol APIResponse {
     var response: HTTPURLResponse? { get }
     var data: Data? { get }
-    
-    func body(for key: String?) -> Any?
-    func bodyData(for key: String?) -> Data?
-    func error() -> Error?
 }
 
 extension APIResponse {
@@ -23,9 +19,11 @@ extension APIResponse {
         guard let data = self.data else { return nil }
         
         do {
-            let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+            guard let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else {
+                return try JSONSerialization.jsonObject(with: data, options: [])
+            }
             
-            guard let jsonData = json?["data"] else { return nil }
+            guard let jsonData = json["data"] else { return json }
             
             if let jsonData = jsonData as? [String: Any] {
                 if let key = key {

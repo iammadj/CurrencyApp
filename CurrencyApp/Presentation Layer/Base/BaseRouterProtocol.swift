@@ -8,7 +8,7 @@
 import UIKit
 
 protocol BaseRouterProtocol: AnyObject {
-    var _viewController: UIViewController? { get }
+    var viewController: UIViewController? { get set }
     
     func push(to viewController: UIViewController)
     func present(viewControllelr: UIViewController)
