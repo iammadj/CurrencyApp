@@ -422,8 +422,7 @@
 				753E35B227B6EE2700764ED6 /* Helpers */,
 				753E356F27B6AF3700764ED6 /* Extensions */,
 			);
-			name = "Application Layer";
-			path = Extensions;
+			path = "Application Layer";
 			sourceTree = "<group>";
 		};
 		753E359827B6C2D000764ED6 /* Presentation Layer */ = {
